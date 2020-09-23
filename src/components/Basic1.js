@@ -2,10 +2,8 @@
 
 import React, {useState} from 'react'
 
-// Hello React を返す関数
-// 引数は props と記述する(決まり事)
 const Basic1 = () => {
-    
+    // オブジェクトに対してuseStateをどう使うか学ぶ
 
     // プロダクト関数を定義
     // 関数名 : setProducts  オブジェクト : product

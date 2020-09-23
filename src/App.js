@@ -4,7 +4,7 @@ import './App.css';
 
 // ファンクショナルコンポーネントをインポートする
 // import ファイル名 from パス
-import  Basic1 from './components/Basic1'
+import  TimerContainer from './components/TimerContainer'
 
 function App() {
 
@@ -14,9 +14,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
 
-        <Basic1 name='Hooks'/>
-
-        <Basic1 name='Today'/>
+        <TimerContainer />
 
       </header>
     </div>
