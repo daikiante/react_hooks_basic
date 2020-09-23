@@ -2,22 +2,22 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+// ファンクショナルコンポーネントをインポートする
+// import ファイル名 from パス
+import  Basic1 from './components/Basic1'
+
 function App() {
+
+  // ファンクショナルコンポーネントを使う
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
+        <Basic1 name='Hooks'/>
+
+        <Basic1 name='Today'/>
+
       </header>
     </div>
   );
