@@ -7,7 +7,9 @@ import './App.css';
 
 import AppContext from './contexts/AppContext';
 
-import CompB from './components/CompB';
+// import CompB from './components/CompB';
+
+import Memo from './components/Memo'
 
 
 import { useReducer } from 'react'
@@ -39,9 +41,13 @@ function App() {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
 
-
+{/*
         Count { count }
         <CompB />
+*/}
+
+        <Memo />
+
         </header>
       </div>
 
